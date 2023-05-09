@@ -1,0 +1,14 @@
+.eee{
+    background-color: #eee;
+}
+
+.gradient-custom-2 {
+    background: linear-gradient(to right, #e27e36, #d8363a, #aae58e, #9d287a);
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
